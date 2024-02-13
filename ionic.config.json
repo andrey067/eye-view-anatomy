@@ -1,0 +1,8 @@
+{
+  "name": "EyeView Anatomy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "486e51fd"
+}
