@@ -62,34 +62,34 @@ function App() {
         <IonContent fullscreen scrollY={true}>
           <Swiper onSwiper={(swiper) => swiperRef.current = swiper} onSlideChange={handleSlideChange}>
             <SwiperSlide>
-              <IonImg src={"../public/olho.png"} style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} alt="olho" /> {/* 0 olho  */}
+              <img style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="/img/olho.png" alt="olho" /> {/* 0 olho  */}
             </SwiperSlide>
             <SwiperSlide>
-              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="../public/esclera.png" alt="esclera" /> {/* 1 esclera  */}
+              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="/img/esclera.png" alt="esclera" /> {/* 1 esclera  */}
             </SwiperSlide>
             <SwiperSlide>
-              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="../public/cornea.png" alt="cornea" /> {/* 2 cornea  */}
+              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="/img/cornea.png" alt="cornea" /> {/* 2 cornea  */}
             </SwiperSlide>
             <SwiperSlide>
-              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="../public/pupila.png" alt="pupila" />{/*3 esclera  */}
+              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="/img/pupila.png" alt="pupila" />{/*3 esclera  */}
             </SwiperSlide>
             <SwiperSlide>
-              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="../public/cristalino.png" alt="cristalino" /> {/*4 cristalino  */}
+              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="/img/cristalino.png" alt="cristalino" /> {/*4 cristalino  */}
             </SwiperSlide>
             <SwiperSlide>
-              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="../public/iris.png" alt="iris" /> {/*5 iris  */}
+              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="/img/iris.png" alt="iris" /> {/*5 iris  */}
             </SwiperSlide>
             <SwiperSlide>
-              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="../public/retina.png" alt="retina" />  {/*6 retina  */}
+              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="/img/retina.png" alt="retina" />  {/*6 retina  */}
             </SwiperSlide>
             <SwiperSlide>
-              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="../public/nervooptico.png" alt="nervooptico" /> {/*7 nervooptico  */}
+              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="/img/nervooptico.png" alt="nervooptico" /> {/*7 nervooptico  */}
             </SwiperSlide>
             <SwiperSlide>
-              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="../public/coroide.png" alt="coroide" /> {/*8 coroide  */}
+              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="/img/coroide.png" alt="coroide" /> {/*8 coroide  */}
             </SwiperSlide>
             <SwiperSlide>
-              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="../public/humorvítreo.png" alt="coroide" /> {/*8 humorvítreo  */}
+              <IonImg style={{ width: '300px', height: '550px', display: 'block', margin: 'auto' }} src="/img/humorvítreo.png" alt="coroide" /> {/*8 humorvítreo  */}
             </SwiperSlide>
           </Swiper>
           <Modal open={activeSlide === 0} title={'O que é o olho humano?'} content={`<b>Olho humano</b> é o órgão responsável pela visão do ser humano.
