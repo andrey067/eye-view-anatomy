@@ -13,7 +13,7 @@ export default function Modal(props: ModalPros) {
         <IonFooter>
             <IonModal isOpen={props.open}
                 initialBreakpoint={0.15}
-                breakpoints={[0.15, 0.5, 0.9, 1.1]}
+                breakpoints={[0.15, 0.5, 0.9, 1]}
                 backdropDismiss={false}
                 backdropBreakpoint={0.5}>
                 <IonContent class="ion-padding">
